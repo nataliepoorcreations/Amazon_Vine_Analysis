@@ -85,11 +85,11 @@ Using my knowledge of PySpark, Pandas, and SQL, I determined if there is any bia
 ## Results
 <img width="516" alt="total reviews" src="https://user-images.githubusercontent.com/106033535/193477984-eed6f107-fdc3-45e9-9924-574745985719.png">
 
-* How many Vine reviews and non-Vine reviews were there? 37,945
+* How many Vine reviews and non-Vine reviews were there? 38,010
 * How many Vine reviews were 5 stars? 65
 * How many non-Vine reviews were 5 stars? 20,612
 * What percentage of Vine reviews were 5 stars? 38.24%
 * What percentage of non-Vine reviews were 5 stars? 54.5%
 
 ## Summary
-The results show that even though there is a lower number of reviewers from the Amazon Vine program, 65, compared to 37,945, the percentage of 5 star reviews from non-Vine users were about 16% more than Vine users. This tells us that the paid reviewers did give out more 5 star reviews because they were being paid either in free product or money. 
+The results show that even though there is a lower number of reviewers from the Amazon Vine program, 170, compared to 37,840, the percentage of 5 star reviews from non-Vine users were about 16% more than Vine users. This tells us that the paid reviewers did give out more 5 star reviews because they were being paid either in free product or money. 
