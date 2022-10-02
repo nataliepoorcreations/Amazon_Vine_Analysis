@@ -21,20 +21,6 @@ Using my knowledge of the cloud ETL process, I created an AWS RDS database with 
 
 * Extracting each table data I wanted from the DataFrame 'df' and created new "table" DataFrames for customers, products, review id's, and vines. 
 
-<img width="605" alt="customer_table" src="https://user-images.githubusercontent.com/106033535/193477273-7a5fa6ef-c059-46ba-b3f2-123f303c79c4.png">
-
-
-<img width="601" alt="product_table" src="https://user-images.githubusercontent.com/106033535/193477284-1fcd08f6-fd39-44b5-907a-4b0b79b14dc5.png">
-
-
-<img width="757" alt="review_id_table" src="https://user-images.githubusercontent.com/106033535/193477287-75ea70d0-dbf9-428f-9c30-e6ce726c5f2c.png">
-
-
-<img width="803" alt="vine_table" src="https://user-images.githubusercontent.com/106033535/193477290-e7a64d6c-a7f6-4bb1-9bca-f12bbd1ee9dc.png">
-
-
-* I then setup an RDS PostgreSQL Database on the Amazon Web Services and in the PySpark program listed the connection configuration to the database, set up a connection in pgAdmin so I could view the tables locally in my desktop, and created the 4 tables through the pgAdmin interface so I could load them from the PySpark program.
-
 
 <img width="1084" alt="create customer table" src="https://user-images.githubusercontent.com/106033535/193477351-48a95680-7a80-423b-a6e8-8469237e8aab.png">
 
@@ -46,6 +32,21 @@ Using my knowledge of the cloud ETL process, I created an AWS RDS database with 
 
 
 <img width="894" alt="create vine table" src="https://user-images.githubusercontent.com/106033535/193477370-c752fdd2-f6a8-4bec-832e-07c72a57867b.png">
+
+
+* I then setup an RDS PostgreSQL Database on the Amazon Web Services and in the PySpark program listed the connection configuration to the database, set up a connection in pgAdmin so I could view the tables locally in my desktop, and created the 4 tables through the pgAdmin interface so I could load them from the PySpark program.
+
+
+<img width="605" alt="customer_table" src="https://user-images.githubusercontent.com/106033535/193477273-7a5fa6ef-c059-46ba-b3f2-123f303c79c4.png">
+
+
+<img width="601" alt="product_table" src="https://user-images.githubusercontent.com/106033535/193477284-1fcd08f6-fd39-44b5-907a-4b0b79b14dc5.png">
+
+
+<img width="757" alt="review_id_table" src="https://user-images.githubusercontent.com/106033535/193477287-75ea70d0-dbf9-428f-9c30-e6ce726c5f2c.png">
+
+
+<img width="803" alt="vine_table" src="https://user-images.githubusercontent.com/106033535/193477290-e7a64d6c-a7f6-4bb1-9bca-f12bbd1ee9dc.png">
 
 
 
